@@ -1,2 +1,2 @@
 # alpaca-stocks-trader
-A Node 
+Stocks trading engine written in NodeJS interacting with Alpaca Markets and Trading View APIs
