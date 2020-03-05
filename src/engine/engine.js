@@ -3,8 +3,8 @@ const moment = require('moment');
 const { Query } = require('mingo');
 
 const { Trade, User, queries: { getActiveRulesByFrequency, getIncompleteTrades } } = require('../models');
-const rh = require('../services/rhApiService');
-const tv = require('../services/tvApiService');
+const rh = require('../services/alpaca');
+const tv = require('../services/tradingView');
 const logger = require('../services/logService');
 
 const {

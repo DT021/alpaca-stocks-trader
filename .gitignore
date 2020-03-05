@@ -1,3 +1,4 @@
 src/config/env.js
 .idea
 .DS_Store
+node_modules
